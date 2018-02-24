@@ -1,0 +1,26 @@
+{
+  "name": "undo10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackmiaool/undo10.git"
+  },
+  "keywords": [
+    "undo",
+    "redo"
+  ],
+  "author": "blackmiaool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackmiaool/undo10/issues"
+  },
+  "homepage": "https://github.com/blackmiaool/undo10#readme",
+  "dependencies": {
+    "emitter": "0.0.5"
+  }
+}
