@@ -2,9 +2,11 @@
   "name": "undo10",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -o lib/index.js && babel src/index.js --plugins transform-es2015-modules-umd -o dist/undo10.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,9 @@
     "url": "https://github.com/blackmiaool/undo10/issues"
   },
   "homepage": "https://github.com/blackmiaool/undo10#readme",
-  "dependencies": {
-    "emitter": "0.0.5"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.56.2"
   }
 }

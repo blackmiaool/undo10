@@ -1,7 +1,9 @@
 # undo10
 
 ```javascript
-const undo = new Undo({
+import Undo10 from 'Undo10';
+
+const undo = new Undo10({
     data: [1, 2, 3]
 });
 undo.register({
